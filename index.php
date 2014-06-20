@@ -10,7 +10,7 @@ require_once 'includes/requires/header.php';
             require_once 'includes/requires/topo.php';
             ?>
             <div class="content">
-                Teste
+                
             </div>
             <?php
             require_once 'includes/requires/footer.php';
