@@ -1,0 +1,562 @@
+/*	* Desenvolvido por : Cientz Comunicação
+ *  * Autor: Luiz Lucas Gomes X.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/*
+ * Resets
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear:both;
+}
+
+/*
+ * Geral
+ */
+
+body{
+    font-size: 16px;
+    background: url(../imagens/background.jpg) repeat-x ;
+    background-attachment: fixed;
+}
+
+#wrap{
+    height: 100%;
+    position: relative;
+}
+
+
+/*
+ * Scrool Bar
+ */
+
+::-webkit-scrollbar {
+    width: 15px;
+    height: 5px;
+}
+::-webkit-scrollbar-track-piece {
+    background: #aebcbf;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background: #1c8589;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #1c8589;
+}
+
+::-moz-scrollbar {
+    width: 15px;
+    height: 5px;
+}
+::-moz-scrollbar-track-piece {
+    background: #aebcbf;
+}
+::-moz-scrollbar-thumb:vertical {
+    height: 5px;
+    background: #1c8589;
+}
+::-moz-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #FFA500;
+}
+
+::-o-scrollbar {
+    width: 15px;
+    height: 5px;
+}
+::-o-scrollbar-track-piece {
+    background: #aebcbf;
+}
+::-o-scrollbar-thumb:vertical {
+    height: 5px;
+    background: #1c8589;
+}
+::-o-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #FFA500;
+}
+
+/*
+ * Login
+ */
+
+#area-login{
+    position: relative;
+    bottom: 110px;
+    right: 150px;
+    background: url(../imagens/back-login.png) no-repeat;
+    width:550px;
+    height: 100px;
+    float:right;
+}
+#login{
+    margin: 35px 0 0 95px;	
+    font-family:"Myriad pro";
+}
+#form-group{
+    position:relative;
+    width:100%;
+}
+#login label{
+    color: #138080;
+}
+
+/*
+ * Noticias
+ */
+
+#listagem{
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+}
+
+#paginacao-noticias{
+    position: relative;
+    left: 11%;
+}
+
+.news{
+    position: relative;
+    left: 5%;
+    width: 100%;
+}
+.box_new{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    width: 150px;
+}
+.img_new{
+    width: 100%;
+    height: auto;
+}
+.new-desc p{
+    position: relative;
+    right: 2%;
+}
+.new-desc > p > a{
+    text-decoration: none;
+}
+#conteudo .new-desc > p{
+    text-align: center;
+    width: 120px;
+}
+
+#form h3{
+    margin: 0 auto;
+    position: relative;
+    bottom: 80px;
+}
+
+#conteudo > .noticia > .desc_noticia > h3{
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    width: 600px;	
+}
+
+#addNoticiaform label{
+    font-family: 'Open Sans', sans-serif;
+}
+#addNoticiaform input[type=text], #login input[type=password]{
+    width: 300px;
+}
+#addNoticiaform{
+    position: relative;
+    width: 250px;
+    bottom: 15%;
+    left: 15%;
+}
+#addNoticiaform h3{
+    position: relative;
+    right: 12px;
+}
+
+.noticia{
+    position: relative;
+    left: 3%;
+    top: 5%;
+    width: 230px;
+}
+.desc_noticia{
+    float:right;
+    position: relative;
+    width: 20px;
+    left: 40%;
+    bottom: 210px;
+}
+.desc_noticia p{
+    text-align: left;
+    text-indent: 1.5em;
+}
+
+#btn_voltar{
+    float:right;
+    position: relative;
+    top: 45%;
+    left: 75%;
+}
+#pNoticias,
+#pVideos,
+#pEventos{
+    list-style-type:none; 
+    text-align: center;
+    position: relative;
+    right: 24%;
+}
+/*
+ * Topo
+ * 
+ */
+
+#topo{
+    width:100%;
+}
+
+#logo{
+    width:250px;
+}
+
+#logo img{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+
+#logo-cientz{
+    position: relative;
+    left: 80%;
+    width: 100px;
+}
+
+#area-atendimento-on{
+    position: relative;
+    float: right;
+    bottom: 209px;
+    right:15px;
+}
+
+#menu{
+    font-family: 'Open Sans', sans-serif;
+    width:600px;
+    height:50px;
+    float:right;
+    position: relative;
+    bottom:145px;
+}
+
+#menu ul {
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 12px;
+    height: 30px;							
+}
+
+#menu ul li {
+    float: left;
+    margin: 0 0 0 0;
+    background-image: linear-gradient(to bottom, rgb(204,204,204), rgb(214,214,214));						
+}
+
+#menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #000;
+    border-bottom: #138080 5px solid;
+}
+
+#menu ul li a:hover, #menu ul li.active a {
+    background-color: #138080;
+    color: #fff;
+}
+
+#social{
+    float:right;
+    position: relative;
+    right: 180px;
+    bottom:140px;
+}
+
+#social ul{
+    list-style-type: none;
+}
+
+#social ul li{
+    margin:5px;
+    float:left;
+}
+
+#selo{
+    float:right;
+    position: relative;
+    right:30px;
+    bottom:190px;
+}
+
+#noticias{
+    position: relative;
+    left:-90px;
+}
+/*
+ * Menu Central
+ */
+
+#menu-central{
+
+    position: relative;
+    width:960px;
+    margin: 0 auto;
+    bottom: 130px;
+}
+
+#menu-central ul{
+    list-style-type: none;
+}
+
+#menu-central ul li{
+    font-family: 'Open Sans', sans-serif;
+    float:left;
+    margin-left: -10px;
+    width:250px;
+}
+#unidadesImg{
+    float:right;
+    position: absolute;
+    right: 15px;
+    bottom: 400px;
+}
+
+
+/*
+ * Geral
+ * 
+ */
+
+#page{
+    height: 100%
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+
+#footer p{
+    text-align:center;
+}
+
+
+.dropdown-menu > li > .dropdown-ativo{
+    background: #3f8793;
+    color: #fff;
+}
+
+.dropdown-menu-alternative > li {
+    position: relative;
+    left: -10px;
+}
+
+/*
+ * Conteudo
+ * 
+ */
+
+#conteudo{
+    font-family: 'Muli', sans-serif;
+    color:#414042;
+    font-weight: 550;
+    position:relative;
+    bottom:130px;
+    left: -20px;
+    margin: 0 auto;
+    background-color:#fff;
+    width: 930px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#conteudo p{
+    width: 500px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#conteudo h4{
+    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    color: #4A616A;
+    margin-left: 20px;
+}
+
+#conteudo h6{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+
+#accordion{
+    margin-left: 25px;
+    list-style-image: url(../imagens/marcador.png);
+}
+
+#accordion li{
+    padding: 2px;
+}
+
+#accordion a{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 15px;
+    color:#4A616A;
+}
+
+.aba{
+
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 10px #ccc;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-box-shadow: 2px 2px 10px #ccc;
+    -moz-box-shadow: 2px 2px 10px #ccc;
+    -o-box-shadow: 2px 2px 10px #ccc;
+    -ms-box-shadow: 2px 2px 10px #ccc;
+    user-select: none;
+    background: linear-gradient(to bottom, #c0c0c0, #bbbbbb);
+    border-color: #cccccc;
+}
+
+.aba:hover,
+.aba:active,
+.aba:focus{
+    text-transform: none;
+    background: #248784;
+    color:#fff;
+}
+
+.aba-ativa{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 10px #ccc;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-box-shadow: 2px 2px 10px #ccc;
+    -moz-box-shadow: 2px 2px 10px #ccc;
+    -o-box-shadow: 2px 2px 10px #ccc;
+    -ms-box-shadow: 2px 2px 10px #ccc;
+    user-select: none;
+    background: #248784;
+    border-color: #cccccc;
+}
+
+.aba-ativa:hover{
+    color:#fff;
+}
+
+#abas{
+    margin-top: -10px;
+    margin-left: -7px;
+    width:960px;
+}
+
+#abas ul{
+    list-style-type: none;
+}
+
+#abas ul li{
+    float:left;
+    margin: 18px;
+    width: 150px;
+
+}
+
+#abas a,
+#abas a:hover{
+    text-decoration: none;
+    width: 150px;
+    height: 35px;
+}
+
+#mapa{
+    position:relative;
+    right: 55px;
+    bottom:120px;
+    color:#138080;
+    width: 960px;
+    margin: 0 auto;
+}
+#mapa #box{
+    float:left;
+    position: relative;
+    width: auto;
+    margin-left: 50px;
+}
+
+#mapa ul{
+    list-style-image: url("../imagens/list.png");
+}
+
+#mapa ul li{
+    margin-left: 20px;	
+}
+
+#mapa #box a{
+    text-decoration: none;
+}
+
+#footer{
+    bottom: -140px;
+}
+
+
+/*
+ * Página de Vídeos
+ */
+
+#videos{
+    margin-left:17px;
+
+}	

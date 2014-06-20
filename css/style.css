@@ -1,0 +1,262 @@
+/*	* Desenvolvido por : Cientz Comunicação
+ *  * Autor: Luiz Lucas Gomes X.
+ * 	* Versão: 1.0
+ *  * Update: ***
+ */
+
+/*
+ * Imports
+ */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+/*
+ * Resets
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+body, html {
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*
+ * Geral
+ */
+
+body {
+	background-image: url("../imagens/background.jpg");
+}
+
+.wrap {
+	min-height: 100%;
+	position: relative;
+}
+
+.page {
+	max-width: 960px;
+	height: 850px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.content {
+	position: relative;
+	height: 570px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.content .tabelaResultado {
+	position: relative;
+	top: 25px;
+}
+
+.dashPainel {
+	width: 269px;
+	height: 314px;
+	float: left;
+	margin-left: 30px;
+}
+.lastCadastros {
+	width: 450px;
+}
+.dashPainel h4 {
+	text-align: center;
+}
+
+/*
+ * Topo
+ */
+
+.topo {
+	width: 100%;
+	height: 250px;
+	background-image: url("../imagens/header_bg.png");
+}
+
+.topo #logo {
+	width: 254px;
+	height: 195px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.topo #logo img {
+	width: 220px;
+}
+
+.topo .menu {
+	width: 680px;
+	position: relative;
+	left: 15%;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+	min-width: 100%;
+	min-height: 50px;
+	margin: 0;
+	bottom: 0;
+	position: relative;
+	border-top: 1px solid #c9d3dd;
+}
+
+.footer p {
+	padding: 5px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.footer p a {
+	text-decoration: none;
+	color: #8c8c8c;
+}
+
+.footer img {
+	width: 70px;
+	position: relative;
+	top: -1px;
+}
+/*
+ * Painels
+ */
+
+.PagePainel {
+	width: 960px;
+	height: 600px;
+	background-color: #fff;
+	border-radius: 9px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+.topoPainel_gerente #logo img {
+	width: 200px;
+	margin: 25px;
+}
+.menuPainel_gerente {
+	width: 700px;
+	margin: 0 auto;
+	bottom: 90px;
+	position: relative;
+	right: 10px;
+}
+.content-inner {
+	padding: 29px 36px;
+	height: 422px;
+}
+.content-inner .well {
+	width: 350px;
+	text-align: center;
+	color: #adadad;
+}
+.ContentPainel {
+	margin-top: -25px;
+}
+
+.btn-noBorder {
+	border-radius: 0px !important;
+}
+
+.paginacao {
+	position: absolute;
+	top: 500px;
+	right: 50px;
+}
+
+.paginacao_historico {
+	position: relative;
+	bottom: 33px;
+}
+
+.paginacaoResgates {
+	position: relative;
+	bottom: 20px;
+}
+
+/*
+ * Login
+ */
+.ContentLogin {
+	width: 700px;
+	height: 250px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+	border-radius: 8px;
+}
+.ContentLogin .logo {
+	padding: 21px 30px 0 0;
+}
+.ContentLogin #formAuth {
+	width: 350px;
+	height: 250px;
+	border-right: 1px solid #ccc;
+	position: relative;
+	left: 25px;
+}
+
+/*
+ * Painels
+ */
+
+.painelInfos {
+	max-width: 32%;
+	height: 90%;
+	padding-right: 20px;
+	border-right: 1px solid #000;
+	float: left;
+}
+.painelInfos i {
+	color: red;
+}
+.painelinfos ul {
+	font-size: 20px;
+}
+.painelPremios {
+	max-width: 68%;
+	padding-left: 16px;
+	height: 90%;
+	float: left;
+}
+.painelInfos > #btns_historico {
+	width: 200px;
+	margin: 0 auto;
+}
+.boxPremio {
+	float: left;
+	width: 151px;
+	height: 165px;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.boxPremio img {
+	width: 150px;
+	height: 108px;
+}
+
+.boxPremio > .imgPremio {
+	width: 150px;
+	margin: 0 auto;
+}
+.boxPremio > .resgatarPremio {
+	width: 102px;
+	margin: 0 auto;
+}
